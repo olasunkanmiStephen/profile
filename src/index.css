@@ -24,3 +24,11 @@ body{
     width: 70%;
   }
 }
+
+@media (max-width: 960px) {
+  .containers{
+    flex-direction: column;
+    min-width: 100%;
+    gap: 20px;
+  }
+}

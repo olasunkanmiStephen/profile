@@ -5,7 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* color: rgb(119, 119, 119); */
     h4{
         font-size: 23px;
     }
@@ -71,6 +70,22 @@
                     background-color: beige;
                     padding: 6px;
                     border-radius: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .left-container{
+        width: 100%;
+        .profile-card{
+            .card{
+                img{
+                    width: 60%;
+                }
+                .details{
+                    width: 80%;
                 }
             }
         }
