@@ -1,0 +1,82 @@
+.right-container{
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 119, 119);
+    gap: 20px;
+    h4{
+        font-size: 23px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        gap: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        .bio{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .brands{
+                display: flex;
+                align-items: center;
+                .nasa{
+                    width: 70px;
+                }
+                .huawei{
+                    width: 70px;
+                }
+            }
+        }
+        .core-needs{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .needs{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+                .need{
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                }
+                .bullet{
+                    background-color: blueviolet;
+                    height: 9px;
+                    width: 9px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        .payment{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            padding: 10px 20px;
+            border-radius: 10px;
+            width: 100%;
+            .p-md{
+                width: 100%;
+                img{
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
